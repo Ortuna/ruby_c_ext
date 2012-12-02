@@ -1,14 +1,5 @@
 #include "helloworld.h"
 
-// #define GetDBM(obj, helloworldp) {\
-//     Data_Get_Struct(obj, struct helloworlddata, helloworldp);\
-//     if (helloworldp->di_helloworld == 0) closed_dbm();\
-// }
-
-// struct helloworlddata {
-//     int  di_size;
-//     Helloworld *di_helloworld;
-// };
 static VALUE cHelloworld;
 static ID id_helloworld;
 
